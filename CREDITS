@@ -1,0 +1,10 @@
+The API was inspired by the parent module DateTime.  The source for DateTime
+was reviewed numerous to gleen ideas for implementation techniques and to
+insure compatibility.
+
+This module is indebted to the all of the work that has previously gone into
+DateTime and the associated modules it depends upon.
+
+Jim Bacon
+North Texas Consulting
+

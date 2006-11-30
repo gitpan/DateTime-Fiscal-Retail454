@@ -1,0 +1,15 @@
+--- #YAML:1.0
+name:                DateTime-Fiscal-Retail454
+version:             0.01
+abstract:            create 4-5-4 Calendar data from DateTime objects.
+license:             ~
+generated_by:        ExtUtils::MakeMaker version 6.31
+distribution_type:   module
+requires:     
+    Carp:                          0
+    DateTime:                      0
+meta-spec:
+    url:     http://module-build.sourceforge.net/META-spec-v1.2.html
+    version: 1.2
+author:
+    - Jim Bacon <jim@nortx.NOSPAM.com>
