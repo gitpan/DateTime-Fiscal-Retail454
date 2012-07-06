@@ -1,13 +1,17 @@
-# $Id$
-
-use Test::More tests => 1233;
+# $Id: 01_sanity.t 22 2012-07-05 21:36:33Z jim $
 
 BEGIN {
   use DateTime::Fiscal::Retail454;
+
+  chdir 't' if -d 't';
+  require './r454_testdata';
+
+  my $loops = scalar(keys(%r454_data));
+  $loops *= (1 + 4 + (12 * (6 + 5)));
+  $totaltests = $loops;
 }
 
-chdir 't' if -d 't';
-require './r454_testdata';
+use Test::More tests => $totaltests;
 
 foreach ( keys(%r454_data) ) {
   do_it($_);
@@ -49,4 +53,3 @@ my $fyear = shift;
 }
 
 __END__
-

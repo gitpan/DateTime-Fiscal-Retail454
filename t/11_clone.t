@@ -1,4 +1,4 @@
-# $Id$
+# $Id: 11_clone.t 22 2012-07-05 21:36:33Z jim $
 
 use Test::More tests => 8;
 
